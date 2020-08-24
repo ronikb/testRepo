@@ -1,7 +1,7 @@
 name: Action2
 
 on:
-  workflow_dispatch:
+  push:
     branches: [ master ]
 
 jobs:
