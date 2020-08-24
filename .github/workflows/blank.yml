@@ -19,4 +19,4 @@ jobs:
         cat second.txt
         pwd
         ls -la
-        sh ./tag.sh
+        ./tag.sh
