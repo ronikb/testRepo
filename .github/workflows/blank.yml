@@ -1,8 +1,15 @@
 name: testAction1
-
-on:
+    
+on: 
   workflow_dispatch:
     branches: [ master ]
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'  
 
 jobs:
   build:
