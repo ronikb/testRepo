@@ -2,7 +2,8 @@ name: testAction1
     
 on: 
   workflow_dispatch:
-      inputs:
+    branches: [ master ]
+    inputs:
       logLevel:
         description: 'Log level'     
         required: true
