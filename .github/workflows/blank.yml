@@ -2,7 +2,7 @@ name: testAction1
     
 on: 
   workflow_dispatch:
-    branches: [ master ]
+    branches: [ dev ]
     inputs:
       logLevel:
         description: 'Log level'     
